@@ -1,0 +1,33 @@
+Start testing: Jun 23 18:12 +04
+----------------------------------------------------------
+1/1 Testing: RestaurantTests
+1/1 Test: RestaurantTests
+Command: "/home/RestaurantProject/build/RestaurantTests"
+Directory: /home/RestaurantProject/build
+"RestaurantTests" start time: Jun 23 18:12 +04
+Output:
+----------------------------------------------------------
+Running main() from /home/googletest/googletest/src/gtest_main.cc
+[==========] Running 3 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 3 tests from RestaurantTest
+[ RUN      ] RestaurantTest.AddNewCustomer
+Enter contact info forAnna: Enter dish name (or 'done' to finish): [       OK ] RestaurantTest.AddNewCustomer (0 ms)
+[ RUN      ] RestaurantTest.CreateOrderWithDishes
+[       OK ] RestaurantTest.CreateOrderWithDishes (0 ms)
+[ RUN      ] RestaurantTest.CalculateTotalEmptyOrder
+[       OK ] RestaurantTest.CalculateTotalEmptyOrder (0 ms)
+[----------] 3 tests from RestaurantTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 3 tests.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"RestaurantTests" end time: Jun 23 18:12 +04
+"RestaurantTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 23 18:12 +04
